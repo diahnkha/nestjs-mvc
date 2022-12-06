@@ -71,3 +71,24 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+## ##########################################################
+dist, hasil running
+src, yang sering dipake developer programmernya
+tahapan membuat endpoint, 
+1. bikin logic di file service
+2. masukin ke controoler, si service bakal dipanggil di contriller
+3. kelasnya controller harus di regist ke modulenya
+
+folder test, untuk testing, unit test
+package json, kumpulan perintah untuk jalanin nest jsnya, kumpulan library yang bakal dipake, misal setengah jadi terus di deliver. jangan sama node modulesnya. kemudian dev lain bakal disuruh setup dulu. suruh instalasi dulu. biasanya npm install. bakal install library yang ada di package.json
+
+nest js, ngambil basenya di express. jwt buat credentialnya. ada redis sama mongo 
+
+microservice, misal nulis query dan jarang berubah datanya, buat config. kalau query terus2an di db sayang peformanya. di nest js bisa ngambil di chache. jadi gaperlu nulis query lagi ke dbnya. jadi ga berat
+
+swagger wajib buat documentation kan, diconfig ke src/main.ts
+
+{{ string }}
+
+{{{ html }}}
