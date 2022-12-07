@@ -76,8 +76,9 @@ Nest is [MIT licensed](LICENSE).
 dist, hasil running
 src, yang sering dipake developer programmernya
 tahapan membuat endpoint, 
-1. bikin logic di file service
-2. masukin ke controoler, si service bakal dipanggil di contriller
+1. bikin logic di file service => src/app.service.ts
+2. masukin ke controller, si service bakal dipanggil di controller 
+=> src/app.module.ts
 3. kelasnya controller harus di regist ke modulenya
 
 folder test, untuk testing, unit test
@@ -92,3 +93,8 @@ swagger wajib buat documentation kan, diconfig ke src/main.ts
 {{ string }}
 
 {{{ html }}}
+
+
+npx nest generate module users
+npx nest g controller users/controller/users
+npx nest g service users/services/users
